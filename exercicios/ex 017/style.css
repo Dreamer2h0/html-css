@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+
+body {
+  font-family: 'Work Sans',Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to right, #30A5BF, #185359);
+  /*Medidas absolutas:
+  cm, mm, in, px, pt, pc.
+
+  Medidas relativas:
+  em, ex, rem, vw, vh, %.
+  16px normalmente é igual a um em
+  */
+  font-size: 1em;
+  font-weight: bold;
+  /*lighter normal bold bolder*/
+}
+h1 {
+  font: italic bolder 3em 'Work Sans', sans-serif;
+  /*shorthand font
+  font-style > font-weight > font-size > font-family*/
+}
+p {
+  text-align: justify;
+}

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/*
+  em HTML é id e em CSS é '#' mono-elemental
+  em HTML é class e em CSS é '.' pluri-elemental
+*/
+body {
+  background-color: #cdffcb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1#principal {
+  text-align: center;
+  background-color: #FC8CFF;
+  color: white;
+}
+h1 {
+  color: #FC8CFF;
+}
+h2 {
+  color: #BA8FCC;
+}
+.basico {
+  color: #96cc8f;
+}
+.intermediario {
+  color: #c3cc8f;
+}
+.avancado {
+  color: #cc8f8f;
+}

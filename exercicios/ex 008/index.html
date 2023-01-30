@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="Pasta.ico" type="image/x-icon">
+  <title>Formatação de textos</title>
+</head>
+<style>
+  mark{
+    background-color: lime;
+  }
+</style>
+<body>
+  <h1>Principais formatações</h1>
+  <h2>Negrito/destaque</h2>
+  <p> nesta frase temosum <b>termo em Negrito</b> usando a tag &lt;B&gt; (Não semântica)</p>
+  <br>
+  <p>Nesta frase temosum <strong>termo em destaque.</strong> Usando a tag &lt;strong&gt;(semântica)</p>
+
+  <h2>Itálico/ênfase</h2>
+  <p>Nesta frase temos um <i>termo em italico usando</i> a tag &lt;I&gt; (não semântica)</p>
+  <br>
+  <p>Nesta frase temos um <em>termo em ênfase</em>, usando a tag &lt;em&gt; (Semântica)</p>
+  <h2>teste</h2>
+<p>Usanso &lt;strong&gt; e &lt;em&gt;:
+  <strong><em>É possivel sim!</em></strong>
+</p>
+<h2>Texto marcado</h2>
+<p>Podemos criar um <mark>texto marcado</mark> usando a tag &lt;mark&gt;
+</p>
+<p>e no outro parágrafo, temos <mark>outro texto marcado.</mark></p>
+<p>Se quisermos todas as tags <mark>&lt;mark&gt;</mark> podemos criar uma tag <mark>&lt;style&gt;</mark> logo a cima do body (nesse caso ja estariamos utilizando css) dentro dela aplicar a tag mark com <mark>"{}"</mark> e dentro dele plicar um background-color com a cor desejada</p>
+<h2>Texto grande e pequeno</h2>
+<p>estamos criado um <big>texto grande</big> e um <small>texto pequeno</small> neste paragrafo (big é uma tag obsoleta, a tag small é algo como as letras míudas dos contratos)</p>
+<h2>Texto deletado</h2>
+<p>Podemos mrcar um <del>texto como excluído</del> para demonstrar que ele deve ser lido mas nâo considerado</p>
+<h2>Texto inserdo</h2>
+<p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e mostrar que ele foi adicinado depois (também serve como sublinhado, e seria a forma semântica de ser feito)</p>
+<p>Existe também textos <u>sublinhados</u> com a tag &lt;u&gt; (Não semântica)
+</p>
+<h2>Sobrescrito</h2>
+<p>para inserir coisas do tipo x<sup>20</sup>+3</p>
+<h2>Texto subscriito</h2>
+<p>para inserir coisas do tipo H<sub>2</sub>O</p>
+</body>
+</html>

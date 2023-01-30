@@ -2,4 +2,4 @@
 
 curso html5 e css3
 
-Estou aprendendo a criar sites e agora vou gerenciarmeus repositórios
+Estou aprendendo a criar sites e agora vou gerenciar meus repositórios
